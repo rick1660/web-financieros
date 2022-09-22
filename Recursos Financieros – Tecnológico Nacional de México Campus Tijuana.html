@@ -10266,6 +10266,25 @@
     <!------------------------------------------Styles table and new info------------------------------------->
     <style type="text/css">
 
+      /* Estilos Referencias servicio */
+      #divRefSer{
+        
+        width: 100%;
+        height: 370px;
+        padding: 30px;
+        text-align: center;
+        border-style: solid;
+        border-color: #1b396a;
+        
+        margin: 0px auto;
+        margin-bottom: 30px;
+      }
+
+      .h1RefSer{
+        margin:50px
+      }
+
+
       /*Estilos Factura*/
       #divFac{
         
@@ -10282,10 +10301,11 @@
 
 
       /*Estilos div Referencias*/
+
       #divRef{
         
         width: 100%;
-        height: 320px;
+        height: 340px;
         padding: 30px;
         text-align: center;
         border-style: solid;
@@ -10293,8 +10313,13 @@
         
         margin: 0px auto;
       }
+
+      .h1Ref{
+        margin:50px
+      }
     
       #imgRef {
+        width: 180px;
         transition: transform .10s; /* Animation */
       }
     
@@ -11548,18 +11573,27 @@
             </div>
             <p>&nbsp;</p>
 
-            <!---->
+            <!-----------------------div referencia para pago de servicio-->
+
+            <div id="divRefSer">
+              <h1 class="h1RefSer">Solicitud de referencias, para pago de servicios</h1>
+              <a href="mailto:rf_referencias@tectijuana.edu.mx">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/correo.jpg"><h3>rf_referencias@tectijuana.edu.mx</h3></a>
+              <h4> <strong>Requisitos:</strong> enviar nombre completo, numero de control y servicio requerido.<br></h4>
+            
+            </div>
+
+            <!----------------------div Factura--------------------->
 
             <div id="divFac">
-              <h1 class="h1Ref">Solicitud de factura</h1>
+              <h1 class="h1Fac">Solicitud de factura</h1>
               <a href="https://forms.gle/9DMCgVDZTDK23rvF9">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/iconoimagen.jpg"></a>
               <h3>Respuesta 3 días máximo</h3>
             </div>
 
-            <!----------------------------------->
+            <!-------------div referencias personales---------------------->
             <div id="divRef">
               <h1 class="h1Ref">Referencias personales para pago de semestre</h1>
-              <a href="https://recibos.tijuana.tecnm.mx/?fbclid=IwAR0CeAeex1WMcRb2VJAtdf51pDaVQDGcyB7R-dqzECnWHQDaw1vBD_0NaKs">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/iconoimagen.jpg"></a>
+              <a href="https://recibos.tijuana.tecnm.mx/?fbclid=IwAR0CeAeex1WMcRb2VJAtdf51pDaVQDGcyB7R-dqzECnWHQDaw1vBD_0NaKs">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/pagoRef.png"></a>
              
             </div>
 
