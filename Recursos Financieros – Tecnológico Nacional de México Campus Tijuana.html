@@ -10263,15 +10263,45 @@
 
 
   </style>
+
+
     <!------------------------------------------Styles table and new info------------------------------------->
     <style type="text/css">
+      
+     /*Fuentes */
+     .newPFont{
+      font-size: 25px;
+     }
 
+     .newtitleFont{
+      font-size: 35px;
+      font-weight: 900;
+      color: #1b396a;
+      margin:50px
+     }
+
+
+
+
+    /* Estilos Informacion departamento */
+      #divInfoDepa{
+        
+        width: 100%;
+        height: 550px;
+        padding: 0px;
+        text-align: center;
+        border-style: solid;
+        border-color: #1b396a;
+      
+        margin: 0px auto;
+        margin-bottom: 30px;
+      }
       /* Estilos Referencias servicio */
       #divRefSer{
         
         width: 100%;
-        height: 370px;
-        padding: 30px;
+        height: 400px;
+        padding: 0px;
         text-align: center;
         border-style: solid;
         border-color: #1b396a;
@@ -10280,23 +10310,24 @@
         margin-bottom: 30px;
       }
 
-      .h1RefSer{
-        margin:50px
-      }
 
 
       /*Estilos Factura*/
       #divFac{
         
         width: 100%;
-        height: 370px;
-        padding: 30px;
+        height: 470px;
+        padding: 0px;
         text-align: center;
         border-style: solid;
         border-color: #1b396a;
         
         margin: 0px auto;
         margin-bottom: 30px;
+      }
+
+      .cImgRef{
+        width: 120px;
       }
 
 
@@ -10305,8 +10336,8 @@
       #divRef{
         
         width: 100%;
-        height: 340px;
-        padding: 30px;
+        height: 370px;
+        padding: 0px;
         text-align: center;
         border-style: solid;
         border-color: #1b396a;
@@ -10314,9 +10345,7 @@
         margin: 0px auto;
       }
 
-      .h1Ref{
-        margin:50px
-      }
+     
     
       #imgRef {
         width: 180px;
@@ -11523,76 +11552,45 @@
             </div>
           </header>
 
-          <div class="entry-content">
-            <div class="su-note" style="border-color:#e5e5e5;">
-              <div class="su-note-inner su-u-clearfix su-u-trim"
-                style="background-color:#ffffff;border-color:#ffffff;color:#34495E;">
-                <div class="su-row">
-                  <div class="su-column su-column-size-1-2">
-                    <div class="su-column-inner su-u-clearfix su-u-trim"><img class="alignnone wp-image-35711 "
-                        src="./Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/FINANCIEROS.png"
-                        alt="" width="201" height="133"
-                        srcset="https://www.tijuana.tecnm.mx/wp-content/uploads/2022/03/FINANCIEROS.png 900w, https://www.tijuana.tecnm.mx/wp-content/uploads/2022/03/FINANCIEROS-300x200.png 300w, https://www.tijuana.tecnm.mx/wp-content/uploads/2022/03/FINANCIEROS-768x512.png 768w"
-                        sizes="(max-width: 201px) 100vw, 201px"><br>
-                    </div>
-                  </div>
-                  <span style="font-size: 12pt;">
-                    <div class="su-column su-column-size-1-2">
-                      <div class="su-column-inner su-u-clearfix su-u-trim">
-                        <strong>M.A. BEATRIZ CHAVEZ CEJA</strong><br>
-                        Jefe de Departamento de Recursos Financieros<br>
-                        Teléfono.(664)6 07 84 02 ext. 106<p></p>
-                        <p>Correo oficial: <a
-                            href="mailto:financieros@tectijuana.edu.mx">financieros@tectijuana.edu.mx</a></p>
-                        <p style="text-align: center;"><span style="font-size: 12pt;"><br>
-                          </span></p>
-                      </div>
-                    </div>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <p></p>
-            <div class="su-row"></div>
-            <p>&nbsp;</p>
-            <div class="su-note" style="border-color:#83bed3;">
-              <div class="su-note-inner su-u-clearfix su-u-trim"
-                style="background-color:#9dd8ed;border-color:#ffffff;color:#16244E;"><strong>Horario de atención por
-                  correo.</strong><br>
-                De lunes a viernes 9:00&nbsp; a 16:00 horas<br>
-                <strong>Solicitud de referencias, para pago de servicios. Correo:<span style="color: #0000ff;"> <a
-                      style="color: #0000ff;"
-                      href="mailto:rf_referencias@tectijuana.edu.mx">rf_referencias@tectijuana.edu.mx</a></span></strong><br>
-                <strong>Requisitos:</strong> enviar nombre completo, numero de control y servicio requerido.<br>
-                <strong><em>Respuesta 3 días máximo.</em></strong><br>
-                <strong>Solicitud de factura en el siguiente link. <span style="color: #0000ff;"><a
-                      style="color: #0000ff;"
-                      href="https://forms.gle/9DMCgVDZTDK23rvF9">https://forms.gle/9DMCgVDZTDK23rvF9</a>
-                  </span></strong>Respuesta 3 días máximo.
-              </div>
-            </div>
+         
             <p>&nbsp;</p>
 
-            <!-----------------------div referencia para pago de servicio-->
+
+            <!-----------------------div Informacion departamento---------------------->
+            <div id="divInfoDepa">
+              <p class="newtitleFont">Departamendo de recursos financieros</p>
+              <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/FINANCIEROS.png"/>
+              <p class="newPFont">
+                <strong>M.A. BEATRIZ CHAVEZ CEJA</strong><br>
+                Jefe de Departamento de Recursos Financieros<br> 
+               <strong>Correo oficial:</strong> <br>
+                <a href="mailto:financieros@tectijuana.edu.mx">financieros@tectijuana.edu.mx</a><br>
+                <strong>Horario de atencion por correo</strong> <br>
+                 Lunes a viernes 9:00&nbsp; a 16:00 horas<br>
+              </p>
+            
+            </div>
+
+            <!-----------------------div referencia para pago de servicio----------------->
 
             <div id="divRefSer">
-              <h1 class="h1RefSer">Solicitud de referencias, para pago de servicios</h1>
+              <p class="newtitleFont">Solicitud de referencias, para pago de servicios</p>
               <a href="mailto:rf_referencias@tectijuana.edu.mx">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/correo.jpg"><h3>rf_referencias@tectijuana.edu.mx</h3></a>
-              <h4> <strong>Requisitos:</strong> enviar nombre completo, numero de control y servicio requerido.<br></h4>
+              <p class="newPFont"> <strong>Requisitos:</strong> enviar nombre completo, numero de control y servicio requerido.<br></p>
             
             </div>
 
             <!----------------------div Factura--------------------->
 
             <div id="divFac">
-              <h1 class="h1Fac">Solicitud de factura</h1>
-              <a href="https://forms.gle/9DMCgVDZTDK23rvF9">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/iconoimagen.jpg"></a>
+              <p  class="newtitleFont">Solicitud de factura</p>
+              <a href="https://forms.gle/9DMCgVDZTDK23rvF9">  <img id="imgRef" class="cImgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/icono.png"></a>
               <h3>Respuesta 3 días máximo</h3>
             </div>
 
             <!-------------div referencias personales---------------------->
             <div id="divRef">
-              <h1 class="h1Ref">Referencias personales para pago de semestre</h1>
+              <p class="newtitleFont">Referencias personales para pago de semestre</p>
               <a href="https://recibos.tijuana.tecnm.mx/?fbclid=IwAR0CeAeex1WMcRb2VJAtdf51pDaVQDGcyB7R-dqzECnWHQDaw1vBD_0NaKs">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/pagoRef.png"></a>
              
             </div>
