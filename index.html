@@ -10466,7 +10466,65 @@
         .trTablaNew:hover {
           background-color: #a8a183;
         }
+
+        /*Estilos resposivos*/
+
+        /*desde 0 hasta 1248 hasta */
+        @media (max-width: 1248px)
+        {
+          .newtitleFont{
+            font-size: 33px;
+            font-weight: 900;
+            color: #1b396a;
+            margin:50px
+          }
+
+          .newPFont{
+            font-size: 23px;
+         }
+
+         #imgRef {
+          width: 170px;
+          transition: transform .10s; /* Animation */
+        }
+
+        .cImgRef{
+          width: 110px;
+        }
+
+
+        }
+
+        
+        @media (max-width: 1171px)
+        {
+          .newtitleFont{
+            font-size: 30px;
+            font-weight: 900;
+            color: #1b396a;
+            margin:50px
+          }
+
+          .newPFont{
+            font-size: 20px;
+         }
+
+         #imgRef {
+          width: 160px;
+          transition: transform .10s; /* Animation */
+        }
+
+        .cImgRef{
+          width: 100px;
+        }
+
+        }
+
+        
       </style>
+
+
+      
       <!--Styles table and new info fin-->
 
 
@@ -11575,7 +11633,7 @@
 
             <div id="divRefSer">
               <p class="newtitleFont">Solicitud de referencias, para pago de servicios</p>
-              <a href="mailto:rf_referencias@tectijuana.edu.mx">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/correo.jpg"><h3>rf_referencias@tectijuana.edu.mx</h3></a>
+              <a href="mailto:rf_referencias@tectijuana.edu.mx">  <img id="imgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/correo.jpg"><p class="newPFont">rf_referencias@tectijuana.edu.mx</p></a>
               <p class="newPFont"> <strong>Requisitos:</strong> enviar nombre completo, numero de control y servicio requerido.<br></p>
             
             </div>
@@ -11585,7 +11643,7 @@
             <div id="divFac">
               <p  class="newtitleFont">Solicitud de factura</p>
               <a href="https://forms.gle/9DMCgVDZTDK23rvF9">  <img id="imgRef" class="cImgRef" src="Recursos Financieros – Tecnológico Nacional de México Campus Tijuana_files/icono.png"></a>
-              <h3>Respuesta 3 días máximo</h3>
+              <p class="newPFont">Respuesta 3 días máximo</p>
             </div>
 
             <!-------------div referencias personales---------------------->
